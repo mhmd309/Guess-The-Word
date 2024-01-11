@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/gaming.css" />
+  <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+  <div class="box pt-3 pb-3 text-center">
+    <div class="container">
+      <h1 class="fw-bold fs-2"></h1>
+    </div>
+  </div>
+  <div class="guess-game pt-5 pb-5 text-center d-flex">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+          <div class="game-area">
+            <div class="inputs"></div>
+            <div class="control d-flex align-items-center justify-content-center">
+              <button class="check">Check Word</button>
+              <button class="hint"><span></span> Hints</button>
+            </div>
+            <div class="message text-center p-2">
+              Results Here?
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="key-colors mt-3">
+            <h2 class="fw-bold m-0 mb-2">Key Colors</h2>
+            <div class="key-color d-flex align-items-center p-3 mb-2">
+              <div class="key in-place"></div>
+              <div class="key-text fw-bold">Letter Is Correct and In Place.</div>
+            </div>
+            <div class="key-color d-flex align-items-center p-3 mb-2">
+              <div class="key not-in-place"></div>
+              <div class="key-text fw-bold">Letter Is Correct But Not In Place.</div>
+            </div>
+            <div class="key-color d-flex align-items-center p-3 mb-2">
+              <div class="key no"></div>
+              <div class="key-text fw-bold">Letter Is Wrong.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer text-center pt-3 pb-3">
+    <div class="container">
+      <div class="copyright fw-bold"></div>
+    </div>
+  </div>
+  <script src="js/gaming.js"></script>
+</body>
+
+</html>

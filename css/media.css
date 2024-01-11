@@ -1,0 +1,38 @@
+/* Smart Phones And Tablets */
+
+@media (max-width:768px) {
+  .guess-game .game-area .inputs>div span {
+    font-size: 17px
+  }
+
+  .guess-game .game-area .inputs input {
+    width: 35px;
+    height: 35px;
+    font-size: 20px
+  }
+
+  .guess-game .game-area .control button {
+    font-size: 20px;
+    padding: 5px 15px
+  }
+
+  .guess-game .key-colors .key-color .key-text {
+    font-size: 17px;
+  }
+
+  .message {
+    font-size: 15px;
+  }
+
+  .footer {
+    font-size: 20px
+  }
+}
+
+/* Small Screen */
+
+@media (min-width:769px) and (max-width:991px) {}
+
+/* Medium Screen */
+
+@media (min-width:992px) and (max-width:1199px) {}
